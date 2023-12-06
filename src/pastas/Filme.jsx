@@ -40,7 +40,7 @@ export const Filme = () => {
           </div>
           
           <div style={{ textAlign: 'left',
-        display: "flex",}}>
+        display: "flex", flexDirection: 'column'}}>
           
           <h1 style={{ fontSize: '35px', 
           color: '#b2006d'}}>
@@ -53,13 +53,16 @@ export const Filme = () => {
           
           <p style={{  fontSize: '17px', 
           color: '#b2006d'}}>{filme.descricao}</p>
+
+          <div style={{display: 'flex'}}>
           
-          <button onClick={() => window.open('https://drive.google.com/drive/folders/1-yFkZrcyph8b1l4yrPpD7oaF5DHD7wss', '_blank')} 
+          <button onClick={() => window.open('https://youtu.be/SazCwj9yeUQ', '_blank')} 
            style={{ border: '7px solid #b2006d', 
            borderRadius: '20px', 
            backgroundColor: '#b2006d', 
            color: '#FFFF', 
-           fontSize: '25px'}}>
+           fontSize: '25px',
+           width: '150px'}}>
           Assistir
           </button>
           
@@ -73,6 +76,7 @@ export const Filme = () => {
                  fontSize: '23px'}}>
                 ⮨</button>
             </Link>
+            </div>
           </div>
         </div>
       );

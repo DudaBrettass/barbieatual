@@ -71,7 +71,7 @@ useEffect(() => {
                         
                         </Link>
                         
-                        <button onClick={() => window.open('https://drive.google.com/drive/folders/1-yFkZrcyph8b1l4yrPpD7oaF5DHD7wss', '_blank')} 
+                        <button onClick={() => window.open('https://youtu.be/SazCwj9yeUQ', '_blank')} 
                         style={{ marginTop:'10px', 
                         border: '2px solid #e02d88', 
                         borderRadius: '20px', 
